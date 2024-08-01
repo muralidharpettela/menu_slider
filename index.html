@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome CDN Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  </head>
+    <div class="wrapper">
+      <div class="icon"><i id="left" class="fa-solid fa-angle-left"></i></div>
+      <ul class="tabs-box">
+           <li class="tab" onclick="showCategory('mittagsangebot')">Mittagsangebot</li>
+        <li class="tab" onclick="showCategory('suppen')">Suppen</li>
+        <li class="tab" onclick="showCategory('salate')">Salate</li>
+        <li class="tab" onclick="showCategory('veg_vorspeisen')">Veg Vorspeisen</li>
+        <li class="tab" onclick="showCategory('non_veg_vorspeisen')">Non-Veg Vorspeisen</li>
+        <li class="tab" onclick="showCategory('gemischte_vorspiesen')">Gemischte Vorspeisen</li>
+        <li class="tab" onclick="showCategory('tandoori_brot')">Tandoori Brot</li>
+        <li class="tab" onclick="showCategory('empfehlung_kochs')">Die Empfehlung Unseres Kochs</li>
+        <li class="tab" onclick="showCategory('tandoori')">Tandoori</li>
+        <li class="tab" onclick="showCategory('kindergerichte')">Kindergerichte</li>
+        <li class="tab" onclick="showCategory('biriyani')">Biriyani</li>
+        <li class="tab" onclick="showCategory('reisgerichte')">Reis Gerichte</li> 
+        <li class="tab" onclick="showCategory('vegetarische_gerichte')">Vegetarische Gerichte</li>
+        <li class="tab" onclick="showCategory('hahnchengerichte')">Hähnchengerichte</li>
+        <li class="tab" onclick="showCategory('lammgerichte')">Lammgerichte</li>
+        <li class="tab" onclick="showCategory('fischgerichte')">Fischgerichte</li>
+        <li class="tab" onclick="showCategory('nachtisch')">Nachtisch</li>
+        <li class="tab" onclick="showCategory('indische_getranke')">Indische Getränke</li>
+      </ul>
+      <div class="icon"><i id="right" class="fa-solid fa-angle-right"></i></div>
+    </div>
+    <div id="mittagsangebot" class="items" style="display: none;">
+        <p>Alle Gerichte werden mit Reis serviert.</p>
+        <p>Achtung: Alle Produkte in dieser Kategorie können nur von MON - FRI zwischen: 11:00 - 14:00 geliefert werden.</p>
+      <!-- Shortcode for items in Category  -->
+      [wpc_food_menu_list style ='style-1' wpc_menu_order='ASC' no_of_product = 50 wpc_food_categories = 135 wpc_show_desc='yes' wpc_desc_limit = 20 title_link_show='no' title_link_show='no' product_thumbnail='no' wpc_cart_button='yes' wpc_price_show='yes']
+    </div>
+<div id="suppen" class="items" style="display: none;">
+      <!-- Shortcode for items in Category  -->
+      [wpc_pro_food_menu_list style ='style-1' wpc_menu_order='ASC' no_of_product = 50 wpc_food_categories = 50 live_search='no' wpc_show_desc='yes' wpc_desc_limit = 100 title_link_show='no' show_item_status='no' show_thumbnail='no' wpc_cart_button='yes' wpc_delivery_time_show='no' wpc_nav_position='top']
+    </div>
+ <div id="salate" class="items" style="display: none;">
+      <!-- Shortcode for items in Category  -->
+      [wpc_pro_food_menu_list style ='style-1' wpc_menu_order='ASC' no_of_product = 50 wpc_food_categories = 49 live_search='no' wpc_show_desc='yes' wpc_desc_limit = 100 title_link_show='no' show_item_status='no' show_thumbnail='no' wpc_cart_button='yes' wpc_delivery_time_show='no' wpc_nav_position='top']
+    </div>
+      <div id="veg_vorspeisen" class="items" style="display: none;">
+        <!-- Shortcode for items in Category  -->
+        [wpc_pro_food_menu_list style ='style-1' wpc_menu_order='ASC' no_of_product = 50 wpc_food_categories = 47 live_search='no' wpc_show_desc='yes' wpc_desc_limit = 100 title_link_show='no' show_item_status='no' show_thumbnail='no' wpc_cart_button='yes' wpc_delivery_time_show='no' wpc_nav_position='top']
+      </div>
+      <div id="non_veg_vorspeisen" class="items" style="display: none;">
+        <!-- Shortcode for items in Category  -->
+        [wpc_pro_food_menu_list style ='style-1' wpc_menu_order='ASC' no_of_product = 50 wpc_food_categories = 48 live_search='no' wpc_show_desc='yes' wpc_desc_limit = 100 title_link_show='no' show_item_status='no' show_thumbnail='no' wpc_cart_button='yes' wpc_delivery_time_show='no' wpc_nav_position='top']
+      </div>
+      <div id="gemischte_vorspiesen" class="items" style="display: none;">
+        <!-- Shortcode for items in Category  -->
+        [wpc_pro_food_menu_list style ='style-1' wpc_menu_order='ASC' no_of_product = 50 wpc_food_categories = 46 live_search='no' wpc_show_desc='yes' wpc_desc_limit = 100 title_link_show='no' show_item_status='no' show_thumbnail='no' wpc_cart_button='yes' wpc_delivery_time_show='no' wpc_nav_position='top']
+      </div>
+      <div id="tandoori_brot" class="items" style="display: none;">
+        <!-- Shortcode for items in Category  -->
+        [wpc_pro_food_menu_list style ='style-1' wpc_menu_order='ASC' no_of_product = 50 wpc_food_categories = 51 live_search='no' wpc_show_desc='yes' wpc_desc_limit = 100 title_link_show='no' show_item_status='no' show_thumbnail='no' wpc_cart_button='yes' wpc_delivery_time_show='no' wpc_nav_position='top']
+      </div>
+      <div id="empfehlung_kochs" class="items" style="display: none;">
+        <!-- Shortcode for items in Category  -->
+        [wpc_pro_food_menu_list style ='style-1' wpc_menu_order='ASC' no_of_product = 50 wpc_food_categories = 53 live_search='no' wpc_show_desc='yes' wpc_desc_limit = 100 title_link_show='no' show_item_status='no' show_thumbnail='no' wpc_cart_button='yes' wpc_delivery_time_show='no' wpc_nav_position='top']
+      </div>
+      <div id="tandoori" class="items" style="display: none;">
+        <!-- Shortcode for items in Category  -->
+        [wpc_pro_food_menu_list style ='style-1' wpc_menu_order='ASC' no_of_product = 50 wpc_food_categories = 62 live_search='no' wpc_show_desc='yes' wpc_desc_limit = 100 title_link_show='no' show_item_status='no' show_thumbnail='no' wpc_cart_button='yes' wpc_delivery_time_show='no' wpc_nav_position='top']
+      </div>
+      <div id="kindergerichte" class="items" style="display: none;">
+        <!-- Shortcode for items in Category  -->
+        [wpc_pro_food_menu_list style ='style-1' wpc_menu_order='ASC' no_of_product = 50 wpc_food_categories = 59 live_search='no' wpc_show_desc='yes' wpc_desc_limit = 100 title_link_show='no' show_item_status='no' show_thumbnail='no' wpc_cart_button='yes' wpc_delivery_time_show='no' wpc_nav_position='top']
+      </div>
+
+      <div id="biriyani" class="items" style="display: none;">
+        [wpc_pro_food_menu_list style ='style-1' wpc_menu_order='ASC' no_of_product = 50 wpc_food_categories = 57 live_search='no' wpc_show_desc='yes' wpc_desc_limit = 100 title_link_show='no' show_item_status='no' show_thumbnail='no' wpc_cart_button='yes' wpc_delivery_time_show='no' wpc_nav_position='top']
+      </div> 
+      <div id="reisgerichte" class="items" style="display: none;">
+        [wpc_pro_food_menu_list style ='style-1' wpc_menu_order='ASC' no_of_product = 50 wpc_food_categories = 58 live_search='no' wpc_show_desc='yes' wpc_desc_limit = 100 title_link_show='no' show_item_status='no' show_thumbnail='no' wpc_cart_button='yes' wpc_delivery_time_show='no' wpc_nav_position='top']
+      </div> 
+     
+      <div id="vegetarische_gerichte" class="items" style="display: none;">
+        <!-- Shortcode for items in Category  -->
+        [wpc_pro_food_menu_list style ='style-1' wpc_menu_order='ASC' no_of_product = 50 wpc_food_categories = 52 live_search='no' wpc_show_desc='yes' wpc_desc_limit = 100 title_link_show='no' show_item_status='no' show_thumbnail='no' wpc_cart_button='yes' wpc_delivery_time_show='no' wpc_nav_position='top']
+      </div>
+      <div id="hahnchengerichte" class="items" style="display: none;">
+        <!-- Shortcode for items in Category  -->
+        [wpc_pro_food_menu_list style ='style-1' wpc_menu_order='ASC' no_of_product = 50 wpc_food_categories = 56 live_search='no' wpc_show_desc='yes' wpc_desc_limit = 100 title_link_show='no' show_item_status='no' show_thumbnail='no' wpc_cart_button='yes' wpc_delivery_time_show='no' wpc_nav_position='top']
+      </div>
+  <div id="lammgerichte" class="items" style="display: none;">
+        <!-- Shortcode for items in Category  -->
+        [wpc_pro_food_menu_list style ='style-1' wpc_menu_order='ASC' no_of_product = 50 wpc_food_categories = 55 live_search='no' wpc_show_desc='yes' wpc_desc_limit = 100 title_link_show='no' show_item_status='no' show_thumbnail='no' wpc_cart_button='yes' wpc_delivery_time_show='no' wpc_nav_position='top']
+      </div>
+
+      <div id="fischgerichte" class="items" style="display: none;">
+        <!-- Shortcode for items in Category  -->
+        [wpc_pro_food_menu_list style ='style-1' wpc_menu_order='ASC' no_of_product = 50 wpc_food_categories = 54 live_search='no' wpc_show_desc='yes' wpc_desc_limit = 100 title_link_show='no' show_item_status='no' show_thumbnail='no' wpc_cart_button='yes' wpc_delivery_time_show='no' wpc_nav_position='top']
+      </div>
+
+      <div id="nachtisch" class="items" style="display: none;">
+        <!-- Shortcode for items in Category  -->
+        [wpc_pro_food_menu_list style ='style-1' wpc_menu_order='ASC' no_of_product = 50 wpc_food_categories = 60 live_search='no' wpc_show_desc='yes' wpc_desc_limit = 100 title_link_show='no' show_item_status='no' show_thumbnail='no' wpc_cart_button='yes' wpc_delivery_time_show='no' wpc_nav_position='top']
+      </div>
+      <div id="indische_getranke" class="items" style="display: none;">
+        <!-- Shortcode for items in Category  -->
+        [wpc_pro_food_menu_list style ='style-1' wpc_menu_order='ASC' no_of_product = 50 wpc_food_categories = 61 live_search='no' wpc_show_desc='yes' wpc_desc_limit = 100 title_link_show='no' show_item_status='no' show_thumbnail='no' wpc_cart_button='yes' wpc_delivery_time_show='no' wpc_nav_position='top']
+      </div>
+
+      
+</html>
